@@ -1,0 +1,151 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.banner{
+    width: 100%;
+}
+.banner img{
+    width: 100%;
+}
+.type .titlee,
+.type .titlec{
+	text-align: center;
+	color: #665B88;
+}
+.type .titlee{
+	margin-top: 1.5rem;
+	font-size:1.4rem;
+}
+.type .titlec{
+	margin-bottom: 1rem;
+	font-size:0.4rem;
+}
+.content .por{
+	display: flex;
+	margin: 0.5rem 1.5rem;
+}
+.content .pbg{
+	width: 65%;
+	height: 8rem;
+	background-image: url(../img/p1.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: right center;
+
+}
+.content .pbg img{
+	height: 8rem;
+
+}
+
+.content .des{
+	width: 45%;
+	background-image: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(207, 192, 254, 1)100%);
+  
+}
+.content .des .name{
+	color: #665B88;
+	padding-left: 0.5rem;
+	margin-top: 0.6rem;
+
+  
+}
+.content .des .des1{
+	color: #515151;
+	font-size: 0.1rem;
+	padding-left: 0.3rem;
+	margin-bottom: 0.6rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient:vertical;
+  
+}
+.content .des .jq{
+  color: #665B88;
+  padding-left: 0.3rem;
+  padding-right: 0.2rem;
+
+}
+.content .des .yy{
+  display: inline-block;
+  text-align: center;
+  width: 3.5rem;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  color: #665B88;
+  background-color: #fff;
+  border-radius: 3rem;
+
+}
+.ser{
+	margin: 0 auto;
+	width: 80%;
+	height: 10rem;
+	margin-bottom: 3rem;
+}
+.ser .row{
+	display: flex;
+}
+.ser .row .s1{
+	margin: 0.2rem;
+	width: 50%;
+	height: 4.8rem;
+}
+.ser .row .s2{
+	margin-top: 0.2rem;
+	margin-left: 0.2rem;
+	width: 24.5%;
+	height: 4.8rem;
+
+}
+.ser .row .s3{
+	margin-right: 0.2rem;
+
+}
+.ser .row .bg1,
+.ser .row .bg2,
+.ser .row .bg3,
+.ser .row .bg4,
+.ser .row .bg5{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.ser .row .bg1{
+	background-image: url(../img/p3.jpg);
+}
+.ser .row .bg2{
+	background-image: url(../img/p4.png);
+}
+.ser .row .bg3{
+	background-image: url(../img/p5.png);
+}
+.ser .row .bg4{
+	background-image: url(../img/p6.png);
+}
+.ser .row .bg5{
+	background-image: url(../img/p7.png);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

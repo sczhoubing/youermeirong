@@ -1,0 +1,57 @@
+a{
+	text-decoration: none;
+	out-line: none;
+}
+a:hover{
+	color:#665B88;
+}
+a:active{
+	color: #665B88;
+}
+body{
+	padding-bottom: 3rem;
+}
+.footnav{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	justify-content:space-between;
+	text-align: center;
+	width: 100%;
+	height: 3rem;
+	border-top: 0.01rem solid #DBDBDB;
+	background-color: #fff;
+
+}
+.footnav a{
+	width: 50%;
+	line-height: 3rem;
+	font-size: 1rem;
+}
+#on{
+	background-color: #665B88;
+	color:#fff;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

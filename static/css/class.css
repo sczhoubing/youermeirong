@@ -1,0 +1,87 @@
+body{
+	background-image: url(../img/classbg.png);
+	background-size: contain;
+}
+.tip{
+	margin: 0 auto;
+	width: 80%;
+	height: 20rem;
+}
+.tip .row{
+	display: flex;
+}
+.tip .row .r1{
+	position: relative;
+	width: 48%;
+	height: 9rem;
+	margin: 0.5rem;
+}
+.tip .row .tou{
+   background-image: url(../img/tou.png);
+   background-size: cover;
+}
+.tip .row .shenti{
+   background-image: url(../img/shenti.png);
+   background-size: cover;
+}
+.tip .quans{
+   background-image: url(../img/qs.png);
+   background-size: cover;
+}
+.tip .des1{
+   position: absolute;
+   bottom:0rem;
+   left: 0rem;
+   width: 100%;
+   height: 1.5rem;
+   line-height: 1.5rem;
+   font-size: 0.9rem;
+   color: #fff;
+   background-color: rgba(160,160,160,0.7);
+}
+.tip .r2{
+	position: relative;
+	width: 95%;
+	height:9rem;
+	margin: 0.5rem;
+}
+.tip .jq{
+	color: #665B88;
+}
+.fan{
+	position: absolute;
+	bottom: 1rem;
+	left: 3rem;
+}
+.fan img{
+	width: 1.5rem;
+}
+.content{
+	position: relative;
+	margin-bottom: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

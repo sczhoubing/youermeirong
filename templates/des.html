@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/des.css') }}">
+<script type="text/javascript" src="{{ url_for('static', filename='js/jquery-3.2.1.min.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/des.js') }}"></script>
+<head>
+	<title>详情</title>
+</head>
+<body>
+	<div class="banner">	
+	</div>
+	<div class="content">
+		<div class="title">
+			<div class="name"><span class="ptype"  ></span>－ <span class="pname"  ></span> </div>
+			<div class="infors" >
+
+		    </div>
+		</div>
+		<div class="des">
+				<div class="dian">
+					<img src="{{url_for('static', filename='img/shop.png')}}">
+					<span id="dm" class="1"></span>
+					<img src="{{url_for('static', filename='img/down.png')}}" class="down">
+
+				</div>
+				<ul class="two-bar">
+
+				</ul>
+			    <div class="address row">
+			    	<img src="{{url_for('static', filename='img/addres.png')}}">
+			    	<span class="address1"  ></span>
+			    </div>
+			    <div class="phone row">
+			    	<img src="{{url_for('static', filename='img/tel.png')}}">
+			    	<span class="tel"></span>
+
+			    </div>
+			    <div class="people row">
+			    	<img src="{{url_for('static', filename='img/people.png')}}">
+			    	<span id="ry" class="0">不指定美容师</span>
+
+			    </div>
+			    <ul class="two-bar1"  >
+<!--						<li>店员1</li>-->
+<!--						<li>店员2</li>-->
+<!--						<li>店员3</li>-->
+<!--						<li>店员4</li>-->
+				</ul>
+			    <div class="time row">
+			    	<img src="{{url_for('static', filename='img/data.png')}}" id="ll">
+			    	<input type="date" name="" id="udate" min="" value=""><span class="tishi">(请先选择日期)</span>
+                    <div>
+                        <span id="sj"><span id="sjj">请选择服务时间</span><img src="{{url_for('static', filename='img/down.png')}}" class="down1"></span>
+                    </div>
+
+
+			    </div>
+			    <ul class="two-bar2"  >
+<!--						<li>9:30</li>-->
+<!--						<li>9:35</li>-->
+<!--						<li>9:50</li>-->
+<!--						<li>10:30</li>-->
+				</ul>
+				<div class="uname row">
+			    	<img src="{{url_for('static', filename='img/uname.png')}}">
+			    	<input type="text" name="uname"  class="yx" id="uname" placeholder="请填写姓名">
+
+			    </div>
+			    <div class="utel row">
+			    	<img src="{{url_for('static', filename='img/utel.png')}}">
+			    	<input type="tel" name="utel"  class="yt" id="utel" placeholder="请填写联系电话">
+
+			    </div>
+			    <div class="area row">
+			    	<img src="{{url_for('static', filename='img/ly.png')}}">
+			    	<span>留言</span>
+			    	<div class="ra">
+			    		<textarea id="text"> </textarea>
+			    		 <div class="fan">
+	      				  <img src="{{url_for('static', filename='img/fan.png')}}">
+                         </div>
+			    	</div>
+
+			    </div>
+
+
+		</div>
+
+	</div>
+	
+	<div class="footer">
+		<div class="left">
+			<span class="s1">价格：¥</span>
+		    <span class="s2"></span>
+		</div>
+		<div class="right">
+			<div class="yy">预约</div>
+		</div>
+		
+
+	</div>
+    <div id="zzc">
+		<div class="mtk">
+			<div class="close"><img src="{{ url_for('static', filename='img/del.png') }}"></div>
+			<div class="title">
+				<span class="pi"></span>-<span class="cp"></span>
+			</div>
+			<div class="xq">
+				<div class="p1">
+					<div class="tp"><img class="shopr" src="{{ url_for('static', filename='img/shopr.png') }}" >店铺</div>
+					<div class="ddz sj"></div>
+					<div class="ddh sj"></div>
+				</div>
+				<div class="p1">
+					<div class="tp"><img src="{{ url_for('static', filename='img/peopler.png') }}" >预约人</div>
+					<div class="ynams sj"></div>
+					<div class="yte sj"></div>
+					<div class="sj"> <span class="ydat"></span> <span class="ytim"></span></div>
+
+				</div>
+			</div>
+			<div class="sure">确定</div>
+
+		</div>
+	</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

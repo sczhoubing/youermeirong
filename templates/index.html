@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+
+<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/index.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/css.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/footnav.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/swipe.css') }}">
+
+<script type="text/javascript" src="{{ url_for('static',filename='js/jquery.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static',filename='js/js.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static',filename='js/jquery-3.2.1.min.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static',filename='js/index.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static',filename='js/sjs.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static',filename='js/swipe.js') }}"></script>
+
+<head>
+
+	<title>Skin Keeper</title>
+</head>
+
+<body>
+<!--<div class="area">-->
+
+	<!--<div id=js class="js">-->
+
+		<!--<div class="box01">-->
+
+			<!--<img  src="{{ url_for('static',filename='img/p5.png') }}">-->
+
+			<!--<img   style="display: none" src="{{ url_for('static',filename='img/banner.png') }}">-->
+
+			<!--<img  style="display: none"  src="{{ url_for('static',filename='img/p1.png') }}">-->
+
+			<!--<img style="display: none"  src="{{ url_for('static',filename='img/p2.png') }}">-->
+
+			<!--<img  style="display: none"  src="{{ url_for('static',filename='img/p6.png') }}">-->
+
+
+		<!--</div>-->
+
+		<!--<div class="bg"></div>-->
+
+		<!--<div id=jsNav class=jsNav>	-->
+
+			<!--<a class="trigger imgSelected" href="javascript:void(0)"></a>-->
+
+			<!--<a class="trigger" href="javascript:void(0)"></a>-->
+
+			<!--<a class="trigger" href="javascript:void(0)"></a>-->
+
+			<!--<a class="trigger" href="javascript:void(0)"></a>-->
+
+			<!--<a class="trigger" href="javascript:void(0)"></a>		-->
+
+		<!--</div>-->
+
+	<!--</div>-->
+
+<!--</div>-->
+
+
+<div class="addWrap">
+
+	<div class="swipe" id="mySwipe">
+		<div class="swipe-wrap">
+			<div><a href="javascript:;"><img src="{{ url_for('static',filename='img/banner.png') }}" alt="" /></a></div>
+			<div><a href="javascript:;"><img src="{{ url_for('static',filename='img/p1.png') }}" alt="" /></a></div>
+			<div><a href="javascript:;"><img src="{{ url_for('static',filename='img/p6.png') }}" alt="" /></a></div>
+
+		</div>
+	</div>
+	<ul id="position">
+		<li class="cur"></li>
+		<li class=""></li>
+		<li class=""></li>
+	</ul>
+</div>
+
+
+	<div class="type">
+		<div class="titlee">EnvyMedical</div>
+		<div class="titlec">新品推荐</div>
+		<div class="content">
+<!--{#			<div class="por" href="class.html">#}-->
+<!--{#				<div class="pbg"></div>#}-->
+<!--{#				<div class="des">#}-->
+<!--{#					<div class="name">德曼秀</div>#}-->
+<!--{#					<div class="des1"> 一种先进的皮肤修复疗法，结合了角质特异性血清的去角质....</div>#}-->
+<!--{#					<div>#}-->
+<!--{#						<span class="jq">¥666.60</span>#}-->
+<!--{#						<div class="yy">预约</div>#}-->
+<!--{#					</div>#}-->
+<!--{#				</div>#}-->
+<!--{#				<img src="" class="sale">#}-->
+<!--{#			</div>#}-->
+
+		</div>
+	</div>
+<div class="type">
+		<div class="titlee">Recommend Series</div>
+		<div class="titlec">主推产品</div>
+		<div class="ser">
+			<div class="row">
+				<div class="s1 bg1"></div>
+				<div class="s1 bg2"></div>
+			</div>
+			<div class="row">
+				<div class="s2 bg3"></div>
+				<div class="s2 s3 bg4"></div>
+				<div class="s1 bg5"></div>
+			</div>
+		</div>
+	
+	</div>
+	<div class="footnav">
+
+		<a href="/index" class="home" id="on" style="text-decoration: none;">首页</a>
+		<a href="/list" class="my" style="text-decoration: none;">订单</a>
+	</div>
+</body>
+<script>
+
+	var bullets = document.getElementById('position').getElementsByTagName('li');
+	var banner = Swipe(document.getElementById('mySwipe'), {
+		auto: 2000,
+		continuous: true,
+		disableScroll:false,
+		callback: function(pos) {
+			var i = bullets.length;
+			while (i--) {
+				bullets[i].className = ' ';
+			}
+			bullets[pos].className = 'cur';
+		}
+	});
+
+</script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

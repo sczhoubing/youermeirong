@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/index.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/css.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/class.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/footnav.css') }}">
+<script type="text/javascript" src="{{ url_for('static', filename='js/jquery-3.2.1.min.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/class.js') }}"></script>
+<script type="text/javascript">
+	var Server = {
+      	           proid:{{ proid|tojson }}
+  	    };
+</script>
+<head>
+	<title>分类</title>
+</head>
+<body>
+<div class="banner">
+	<img src="{{ url_for('static', filename='img/p7.png') }}">
+</div>
+<div class="content">
+	<div class="type">
+		<div class="titlee">Body Parts</div>
+		<div class="titlec">护理部位</div>
+	</div>
+	<div class="tip">
+		<div class="row">
+			<a style="text-decoration: none;" class="r1 tou">
+				<div class="des1">脸部护理 <span class="jq" >¥</span><span class="jq"  id="lian"></span></div>
+                <div id="no" style="display: none;"></div>
+			</a>
+			<a  style="text-decoration: none;"  class="r1 shenti">
+				<div class="des1">身体护理 <span class="jq">¥</span><span class="jq" id="shenti"></span></div>
+                <div id="no1" style="display: none;"></div>
+			</a>
+		</div>
+		<div class="r2 quans">
+				<a   style="text-decoration: none;" class="des1">全身护理 <span class="jq">¥</span><span class="jq" id="quans"></span></a>
+                <div id="no2" style="display: none;"></div>
+		</div>
+	</div>
+</div>
+
+<div class="footnav">
+		<a  href="/index"  class="home"  style="text-decoration: none;">首页</a>
+		<a  href="/list" class="my" style="text-decoration: none;">订单</a>
+	</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
